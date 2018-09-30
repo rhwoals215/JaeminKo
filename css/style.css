@@ -1,10 +1,14 @@
+#welcome{
+  text-align: center;
+}
+
 #mySidenav a {
 
   position: absolute;
-  left: -130px;
+  left: -185px;
   transition: 0.3s;
   padding: 20px;
-  width: 120px;
+  width: 180px;
   text-decoration: none;
   font-size: 20px;
   text-align: center;
@@ -22,17 +26,26 @@
   background-color: #555;
 }
 
-#skills {
+#work {
   top: 130px;
   background-color: #555;
 }
 
-#projects {
+#skills {
   top: 200px;
   background-color: #555;
 }
 
-#contact {
+#projects {
   top: 270px;
   background-color: #555;
+}
+
+#contact {
+  top: 340px;
+  background-color: #555;
+}
+
+#about_me{
+  text-align: center;
 }
