@@ -1,5 +1,6 @@
 #body{
   background-repeat: no-repeat;
+  text-align: center;
 }
 #welcome{
   text-align: center;
@@ -7,15 +8,18 @@
 
 #mySidenav a {
   position: absolute;
-  left: -185px;
+  left: -170px;
   transition: 0.3s;
   padding: 20px;
-  width: 180px;
+  width: 160px;
   text-decoration: none;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   color: white;
   border-radius: 0 10px 10px 0;
+  background-image: linear-gradient(to bottom, #a1a2b2, #a8a8a8);
+  border: solid 1px #000000;
+
 }
 
 #mySidenav a:hover {
@@ -25,22 +29,17 @@
 
 #about {
   top: 60px;
-  background-color: #555;
 }
 
 #work {
   top: 130px;
-  background-color: #555;
 }
-
 #skills {
   top: 200px;
-  background-color: #555;
 }
 
 #projects {
   top: 270px;
-  background-color: #555;
 }
 
 #contact {
@@ -48,10 +47,22 @@
   background-color: #555;
 }
 
-#about_me{
+#about_me_section{
+  text-align: center;
+}
+
+#work_section{
   text-align: center;
 }
 
 #skills_section{
+  text-align: center;
+}
+
+#projects_section{
+  text-align: center;
+}
+
+#contacts_section{
   text-align: center;
 }
