@@ -1,9 +1,11 @@
+#body{
+  background-repeat: no-repeat;
+}
 #welcome{
   text-align: center;
 }
 
 #mySidenav a {
-
   position: absolute;
   left: -185px;
   transition: 0.3s;
@@ -47,5 +49,9 @@
 }
 
 #about_me{
+  text-align: center;
+}
+
+#skills_section{
   text-align: center;
 }
