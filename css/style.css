@@ -1,8 +1,6 @@
+html,body {padding:0; margin:0;}
 body{
-  background-image: url("../img/background.jpg");
-  background-size: cover;
   text-align: center;
-  background-attachment: fixed;
   font-family: Arial;
 }
 
@@ -11,7 +9,10 @@ body{
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  border-bottom: solid 4px black;
+  width: 100vw;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
 }
 
 .section a{
@@ -77,11 +78,28 @@ body{
   left: -128px;
 }
 
+#welcome_section{
+  background-image: url("../img/bricks.jpg");
+}
+
 #about_me_section{
   background-image: url("../img/fences.jpg");
-  background-size: cover;
-  text-align: center;
-  background-attachment: fixed;
+}
+
+#work_section{
+  background-image: url("../img/sky.png");
+}
+
+#skills_section{
+  background-image: url("../img/tools.jpg");
+}
+
+#projects_section{
+  background-image: url("../img/projects.jpg");
+}
+
+#contacts_section{
+  background-image: url("../img/contacts.jpg");
 }
 
 #profile_container{
