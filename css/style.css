@@ -3,9 +3,12 @@ body{
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
+  font-family: Arial;
 }
 #welcome{
   text-align: center;
+  font-size: 35px;
+
 }
 
 #mySidenav a {
@@ -14,9 +17,7 @@ body{
   padding: 20px;
   text-decoration: none;
   font-weight: bold;
-  font: Arial;
-  font-size: 20px;
-  text-align: left;
+  font-size: 18px;
   color: black;
   border-radius: 0 10px 10px 0;
   background-image: linear-gradient(to bottom, #a1a2b2, #a8a8a8);
@@ -35,8 +36,8 @@ body{
 
 #work {
   top: 130px;
-  width: 170px;
-  left: -178px;
+  width: 180px;
+  left: -188px;
 }
 #skills {
   top: 200px;
@@ -57,14 +58,17 @@ body{
 }
 
 #about_me_section{
+  margin-top: 100px;
   text-align: center;
 }
 
 #work_section{
+  margin-top: 100px;
   text-align: center;
 }
 
 #skills_section{
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -72,21 +76,7 @@ body{
   margin-left: 150px;
   margin-right: 150px;
   display: flex;
-     align-items: center;
-     justify-content: center;
-     /* You can set flex-wrap and
-        flex-direction individually */
-     flex-direction: row;
-     flex-wrap: wrap;
-     /* Or do it all in one line
-       with flex flow */
-     flex-flow: row wrap;
-     /* tweak where items line
-        up on the row
-        valid values are: flex-start,
-        flex-end, space-between,
-        space-around, stretch */
-     align-content: flex-end;
+  align-items: stretch;
 }
 
 .programing_language{
@@ -98,12 +88,29 @@ body{
 }
 
 #projects_section{
+  margin-top: 100px;
   text-align: center;
 }
 
 #contacts_section{
+  margin-top: 100px;
   text-align: center;}
 
 #contacts_section a{
+  margin-top: 100px;
   text-decoration: none;
+}
+
+#contact_box{
+  margin-left: 200px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+#links{
+  margin: auto;
+}
+#personal_contact{
+  margin: auto;
 }
