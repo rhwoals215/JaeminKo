@@ -1,50 +1,59 @@
-#body{
+body{
+  background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   text-align: center;
+  background-attachment: fixed;
 }
 #welcome{
   text-align: center;
 }
 
 #mySidenav a {
-  position: absolute;
-  left: -170px;
+  position: fixed;
   transition: 0.3s;
   padding: 20px;
-  width: 160px;
   text-decoration: none;
+  font-weight: bold;
+  font: Arial;
   font-size: 20px;
   text-align: left;
-  color: white;
+  color: black;
   border-radius: 0 10px 10px 0;
   background-image: linear-gradient(to bottom, #a1a2b2, #a8a8a8);
   border: solid 1px #000000;
-
 }
 
 #mySidenav a:hover {
   left: 0;
 }
 
-
 #about {
   top: 60px;
+  width: 120px;
+  left: -128px;
 }
 
 #work {
   top: 130px;
+  width: 170px;
+  left: -178px;
 }
 #skills {
   top: 200px;
+  width: 120px;
+  left: -128px;
 }
 
 #projects {
   top: 270px;
+  width: 120px;
+  left: -128px;
 }
 
 #contact {
   top: 340px;
-  background-color: #555;
+  width: 120px;
+  left: -128px;
 }
 
 #about_me_section{
@@ -59,10 +68,42 @@
   text-align: center;
 }
 
+#programing_languages{
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+     align-items: center;
+     justify-content: center;
+     /* You can set flex-wrap and
+        flex-direction individually */
+     flex-direction: row;
+     flex-wrap: wrap;
+     /* Or do it all in one line
+       with flex flow */
+     flex-flow: row wrap;
+     /* tweak where items line
+        up on the row
+        valid values are: flex-start,
+        flex-end, space-between,
+        space-around, stretch */
+     align-content: flex-end;
+}
+
+.programing_language{
+  margin: auto;
+  width: 120px;
+  border-radius: 8px;
+  border: solid 1px black;
+  background-color: lightblue;
+}
+
 #projects_section{
   text-align: center;
 }
 
 #contacts_section{
-  text-align: center;
+  text-align: center;}
+
+#contacts_section a{
+  text-decoration: none;
 }
