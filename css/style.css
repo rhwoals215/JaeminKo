@@ -155,10 +155,45 @@ body{
 
 .programing_language{
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 120px;
+  height: 140px;
   border-radius: 8px;
   border: solid 1px black;
-  background-color: lightblue;
+  background-image: url("../img/softbackground.jpg");
+}
+
+.programing_language h3{
+  text-decoration: underline;
+}
+
+#projects_container{
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  align-items: stretch;
+}
+
+.project{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 220px;
+  border-radius: 8px;
+  border: solid 1px black;
+  background-image: url("../img/softbackground2.jpeg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  padding: 5px;
+}
+
+.project a{
+  text-decoration: underline;
+  color: black;
 }
 
 #contact_box{
