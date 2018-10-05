@@ -146,8 +146,11 @@ a { color: #252526;}
 }
 
 #profile{
-  background-image: linear-gradient(132deg,#8e9eab,#eef2f3);
-  border: solid 1px #252526;
+  font-size: 16px;
+  font-family: Courier;
+  background-color: #edcead;
+  line-height: 2;
+  background-repeat: no-repeat;
   border-radius: 7px;
   padding: 20px;
   margin-left: 10px;
@@ -212,6 +215,6 @@ a { color: #252526;}
 #links{
   margin: auto;
 }
-#personal_contact{
+#personal_contacts{
   margin: auto;
 }
