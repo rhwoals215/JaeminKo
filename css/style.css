@@ -2,7 +2,10 @@ html,body {padding:0; margin:0;}
 body{
   text-align: center;
   font-family: Arial;
+  color: #252526;
 }
+
+a { color: #252526;}
 
 .section{
   display: flex;
@@ -35,10 +38,9 @@ body{
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  color: black;
   border-radius: 0 10px 10px 0;
-  background-image: linear-gradient(to bottom, #a1a2b2, #a8a8a8);
-  border: solid 1px #000000;
+  background-image: linear-gradient(to bottom, #c0c7ce, #a8a8a8);
+  border: solid 1px #252526;
 }
 
 #mySidenav a:hover {
@@ -55,10 +57,9 @@ body{
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  color: black;
   border-radius: 10px 10px 0 0;
-  background-image: linear-gradient(to bottom, #a1a2b2, #a8a8a8);
-  border: solid 1px #000000;
+  background-image: linear-gradient(to bottom, #c0c7ce, #a8a8a8);
+  border: solid 1px #252526;
   transform:rotate(90deg);
 }
 
@@ -110,6 +111,7 @@ body{
 }
 
 #skills_section{
+  color:#e8e8ed;
   background-image: url("../img/tools.jpg");
 }
 
@@ -118,7 +120,12 @@ body{
 }
 
 #contacts_section{
+  color:#e8e8ed;
   background-image: url("../img/contacts.jpg");
+}
+
+#contacts_section a{
+  color:#e8e8ed;
 }
 
 #profile_container{
@@ -134,13 +141,13 @@ body{
   width:40%;
   height: auto;
   align-self: center;
-  border: solid 1px black;
+  border: solid 1px #252526;
   border-radius: 7px;
 }
 
 #profile{
   background-image: linear-gradient(132deg,#8e9eab,#eef2f3);
-  border: solid 1px black;
+  border: solid 1px #252526;
   border-radius: 7px;
   padding: 20px;
   margin-left: 10px;
@@ -161,8 +168,8 @@ body{
   width: 120px;
   height: 140px;
   border-radius: 8px;
-  border: solid 1px black;
-  background-image: url("../img/softbackground.jpg");
+  border: solid 1px #252526;
+  background-image: url("../img/steelbackground.jpg");
 }
 
 .programing_language h3{
@@ -184,8 +191,8 @@ body{
   width: 300px;
   height: 220px;
   border-radius: 8px;
-  border: solid 1px black;
-  background-image: url("../img/softbackground2.jpeg");
+  border: solid 1px #252526;
+  background-image: url("../img/softbackground3.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   padding: 5px;
@@ -193,7 +200,6 @@ body{
 
 .project a{
   text-decoration: underline;
-  color: black;
 }
 
 #contact_box{
