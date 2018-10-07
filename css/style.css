@@ -186,13 +186,20 @@ a { color: #252526;}
   align-items: stretch;
 }
 
+.section h3 {
+  opacity: 0;
+}
+
+.section h3:hover {
+  opacity: 1;
+}
 .project{
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 300px;
-  height: 220px;
+  width: 270px;
+  height: 80px;
   border-radius: 8px;
   border: solid 1px #252526;
   background-image: url("../img/softbackground3.jpg");
@@ -205,6 +212,8 @@ a { color: #252526;}
   text-decoration: underline;
 }
 
+.project:hover {
+}
 #contact_box{
   margin-left: 200px;
   margin-right: 150px;
