@@ -184,7 +184,7 @@ a { color: #252526;}
   margin-right: 150px;
   display: flex;
   align-items: stretch;
-  margin-bottom: 330px;
+  margin-bottom: 300px;
 }
 
 .project_description {
@@ -199,18 +199,22 @@ a { color: #252526;}
 
 #casualgamer:hover #casualgamer_description {
   opacity: 1;
+  transition-duration: 1s;
 }
 
 #maple:hover #maple_description{
   opacity: 1;
+  transition-duration: 1s;
 }
 
 #karatsuba:hover #karatsuba_description{
   opacity: 1;
+  transition-duration: 1s;
 }
 
 #linkit:hover #linkit_description{
   opacity: 1;
+  transition-duration: 1s;
 }
 
 .project{
