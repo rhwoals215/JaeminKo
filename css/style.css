@@ -75,25 +75,32 @@ a { color: #252526;}
   left: -128px;
 }
 
-#work {
+#education{
   top: 270px;
-  width: 180px;
-  left: -188px;
-}
-#skills {
-  top: 340px;
   width: 120px;
   left: -128px;
 }
 
-#projects {
+#work {
+  top: 340px;
+  width: 180px;
+  left: -188px;
+}
+
+#skills {
   top: 410px;
   width: 120px;
   left: -128px;
 }
 
-#contact {
+#projects {
   top: 480px;
+  width: 120px;
+  left: -128px;
+}
+
+#contact {
+  top: 550px;
   width: 120px;
   left: -128px;
 }
@@ -104,6 +111,10 @@ a { color: #252526;}
 
 #about_me_section{
   background-image: url("../img/fences.jpg");
+}
+
+#education_section{
+  background-image: url("../img/studying.jpg");
 }
 
 #work_section{
